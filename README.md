@@ -1,4 +1,130 @@
 # S-N-25BFA58S08277
+
+ข้ามไปที่เนื้อหา
+ฟรีดีวี
+เสียงดิจิทัลโอเพ่นซอร์ส HF สำหรับวิทยุสมัครเล่น
+
+เมนู
+การแนะนำ
+
+FreeDV คือชุดโหมดเสียงดิจิทัลสำหรับวิทยุ HF โหมดหลักของเราคือ Radio Autoencoder ( RADE)คุณสามารถใช้งาน RADE ได้โดยใช้แอปพลิเคชัน GUI ฟรีสำหรับ Windows, Linux และ OSX ซึ่งช่วยให้สามารถใช้วิทยุ SSB ใดๆ ก็ได้เพื่อเสียงดิจิทัลคุณภาพสูง
+
+เทคโนโลยี FreeDV กำลังได้รับการพัฒนาโดยทีมงานวิทยุสมัครเล่นนานาชาติ ซึ่งทำงานร่วมกันในด้านการเรียนรู้ของเครื่อง (Machine Learning), DSP, การเขียนโค้ด, การออกแบบ, ส่วนต่อประสานกับผู้ใช้ และการทดสอบ โครงการนี้บริหารจัดการโดยทีมผู้นำโครงการ (Project Leadership Team: PLT) จำนวน 6 คน การพัฒนาในปัจจุบันได้รับทุนสนับสนุนอย่างสูงจากADRC และผู้สนับสนุนทางการเงินของเราคือSoftware Freedom Conservancyซอฟต์แวร์ทั้งหมดเป็นโอเพนซอร์ส เผยแพร่ภายใต้ (ก) GNU Lesser Public License เวอร์ชัน 2.1 (GUI และโหมด FreeDV แบบดั้งเดิม) และใบอนุญาต BSD แบบสองข้อ (RADE)
+
+ข่าว
+FreeDV ที่ Pacificon 2025
+10 ตุลาคม 2568
+FreeDV 2.0.2 เปิดตัวแล้ว
+1 ตุลาคม 2568
+อัปเดต FreeDV ของ Mooneer – กันยายน 2025
+1 ตุลาคม 2568
+David กันยายน 2025, BBFM Paper, WASPAA
+30 กันยายน 2568
+อัปเดต FreeDV ของ Mooneer – สิงหาคม 2025
+2 กันยายน 2568
+David สิงหาคม 2025, เขียน BBFM, RADE V2 OTA, จังหวะดี
+31 สิงหาคม 2568
+FreeDV ที่งาน JARL Ham Fair 2025
+28 สิงหาคม 2568
+RADE เทียบกับ SSB ที่มีระดับพลังงาน Tx ลดลง
+26 สิงหาคม 2568
+อัปเดต FreeDV ของ Mooneer – กรกฎาคม 2025
+1 สิงหาคม 2568
+เดวิด กรกฎาคม 2568, เอกสาร WASPAA, PAPR, RADE V2 SNR, การสาธิต BBFM OTC
+31 กรกฎาคม 2568
+ทำไมต้อง FreeDV?
+วิทยุสมัครเล่นกำลังเปลี่ยนผ่านจากอนาล็อกสู่ดิจิทัล เช่นเดียวกับการเปลี่ยนผ่านจาก AM สู่ SSB ในช่วงทศวรรษ 1950 และ 1960 คุณจะรู้สึกอย่างไรหากบริษัทหนึ่งหรือสองแห่งเป็นเจ้าของสิทธิบัตร SSB แล้วบังคับให้คุณใช้เทคโนโลยีของพวกเขา ทำให้การทดลองหรือแม้แต่ทำความเข้าใจเทคโนโลยีนี้เป็นสิ่งผิดกฎหมาย และยืนยันให้คุณยึดติดกับมันไปอีก 100 ปีข้างหน้า นั่นคือสิ่งที่กำลังเกิดขึ้นกับเสียงดิจิทัล แต่ตอนนี้ นักวิทยุสมัครเล่นกลับมาควบคุมเทคโนโลยีของพวกเขาอีกครั้ง!
+
+FreeDV โดดเด่นด้วยการใช้ซอฟต์แวร์โอเพนซอร์ส 100% รวมถึงตัวแปลงสัญญาณเสียงพูด ไม่มีความลับ ไม่มีกรรมสิทธิ์! FreeDV นำเสนอเส้นทางสู่วิทยุสมัครเล่นแห่งศตวรรษที่ 21 ที่ซึ่งนักวิทยุสมัครเล่นมีอิสระในการทดลองและสร้างสรรค์นวัตกรรม แทนที่จะยึดติดกับเทคโนโลยีแบบปิดของผู้ผลิตรายเดียวในอนาคต
+
+การทดสอบแบบควบคุมแนะนำว่าเทคโนโลยีเรือธง RADE ของเราเทียบได้อย่างดีกับ SSB บนช่อง SNR สูงและต่ำ
+
+นี่คือสิ่งที่คุณต้องการ
+เครื่องรับหรือเครื่องรับส่งสัญญาณ SSB
+ทั้ง:
+ซอฟต์แวร์ GUI ของ FreeDV (ลิงก์ดาวน์โหลดอยู่ด้านล่าง ตัวติดตั้งสำหรับ macOS และ Windows)
+อะแดปเตอร์เสียงดิจิทัล ezDV ( หมายเหตุ – ไม่รองรับ RADE)
+การเชื่อมต่อวิทยุของคุณ
+หากคุณไม่มีการ์ดเสียงในตัวสำหรับโหมดดิจิทัล คุณสามารถใช้อินพุตและเอาต์พุตเสียงปกติของวิทยุได้ สายเคเบิลและฮาร์ดแวร์เดียวกันกับที่คุณใช้สำหรับโหมดดิจิทัลอื่นๆ ที่ใช้โปรแกรมพีซีสามารถใช้งานกับ FreeDV ได้ แต่คุณจะต้องใช้อินเทอร์เฟซเสียงตัวที่สองสำหรับการเชื่อมต่อไมโครโฟนและลำโพงกับโปรแกรม FreeDV ชุดหูฟัง USB แบบที่เกมเมอร์ใช้ก็เพียงพอแล้วสำหรับอินเทอร์เฟซเสียงตัวที่สอง
+
+ดาวน์โหลด
+ตัวติดตั้ง FreeDV GUI ล่าสุดสำหรับ Windows 64 บิต
+ตัวติดตั้ง FreeDV GUI ล่าสุดสำหรับ macOS
+Linux AppImageเวอร์ชันล่าสุด(แนะนำสำหรับ Ubuntu 22.04 หรือใหม่กว่าและ Fedora 42)
+ผู้ใช้ Linux สามารถสร้างจากซอร์สโค้ดได้เช่นกัน Barry Jackson ได้กรุณาดูแลสคริปต์เพื่อให้ผู้ใช้ Linux สามารถสร้างจากซอร์สโค้ดได้
+หน้าเผยแพร่ GitHubเพื่อดูข้อมูลโดยละเอียดเพิ่มเติมเกี่ยวกับซอฟต์แวร์รุ่นล่าสุด
+ฉันสามารถพูดคุยกับใครได้บ้าง?
+เข้าสู่ระบบFreeDV Reporterเพื่อค้นหานักวิทยุสมัครเล่นคนอื่นๆ ที่ใช้ FreeDV คุณยังสามารถลองทำกิจกรรม/เน็ตเวิร์คต่างๆ ต่อไปนี้ได้:
+
+ที่ตั้ง	ความถี่	เมื่อไร	คำอธิบาย
+ทั่วโลก	ใดๆ	สุดสัปดาห์ที่สามของทุกเดือน (0600/0700 UTC วันเสาร์ถึง 0600/0700 UTC วันจันทร์ ขึ้นอยู่กับเวลาออมแสงของสหรัฐอเมริกา)	วันกิจกรรม FreeDV
+อาร์เจนตินา	7.045 เมกะเฮิรตซ์ แอลเอสบี	วันเสาร์ 1800 UTC	เน็ต; จัดทำโดยRadio Club Coronel PringlesฟังบนLU4EEC KiwiSDR
+ออสเตรเลีย	7.177 MHz LSB (หลัก)
+7.192 MHz LSB (รอง)	วันอาทิตย์ 10.30 น. และ 20.30 น. AEST	สุทธิ
+สหราชอาณาจักร	3.640 MHz LSB (หลัก)
+3.643 MHz LSB (รอง)
+5.3685 MHz USB (หลัง 0930)	เช้าวันอาทิตย์ เวลา 09.00 น.	RSGB ออกอากาศโดย Matt G6WPJ
+สหราชอาณาจักร	5.3685 MHz USB,
+3.693 หรือ 3.697 MHz LSB
+(ตามเงื่อนไขที่อนุญาต)	1600 ท้องถิ่น	เดลี่เน็ต
+สหรัฐอเมริกา	7.182 เมกะเฮิรตซ์ แอลเอสบี	วันอังคาร 2200 EST	เน็ตฝั่งตะวันออกรายสัปดาห์
+การได้รับความช่วยเหลือ
+หากคุณต้องการความช่วยเหลือเกี่ยวกับ FreeDV คุณสามารถลองทำดังต่อไปนี้:
+
+โพสต์ไปยังรายการส่งจดหมายเสียงดิจิทัล
+แท็บแชทในFreeDV Reporter (มีลิงก์ไปยังช่อง #freedv-reporter บน Discord ด้วย)
+FreeDV Discord – มีประโยชน์สำหรับการแชทหรือการประสานงาน QSO
+ช่อง Zoom ของ Walter K5WH (แนะนำให้ติดตั้ง Zoom แต่ไม่จำเป็น)
+IRC: #freedv บน irc.libera.chat พอร์ต 6697
+เอกสารประกอบ
+วิทยุอัตโนมัติเข้ารหัส (RADE)
+คู่มือผู้ใช้ FreeDV GUI ในรูปแบบ HTMLหรือPDF – วิธีเริ่มต้นใช้งาน หมายเหตุเกี่ยวกับคุณสมบัติขั้นสูงและใหม่ใน FreeDV เวอร์ชันล่าสุด
+เทคโนโลยี FreeDV – ภาพรวมของเทคโนโลยีภายในโหมดดิจิทัล FreeDV รุ่นเก่า
+ezDV – อุปกรณ์ฮาร์ดแวร์ล่าสุดของเราสำหรับ FreeDV พร้อมรองรับ Wi-Fi
+Codec2 (ภาพรวมและการเจาะลึก)
+คู่มือ SM1000 – วิธีการตั้งค่า ใช้งาน และแฟลช SM1000 อีกครั้ง
+คำขอคุณลักษณะ
+Have an idea for the FreeDV team? Please answer the questions in the FreeDV Feature Request Form, and submit via a GitHub Issue. Note – incomplete or ad-hoc feature requests will not be considered.
+
+Source Code
+RADE Source Code
+FreeDV GUI Source Code
+Codec 2 Source Code
+FreeDV GUI Source Code Archive
+Codec2 Source Code Archive
+Consolidated commit history across all projects, by developer and date
+Credits
+The FreeDV GUI program is being maintained and extended by Mooneer Salem K6AQ. David Rowe, VK5DGR, leads the signal processing aspects of the project (Radio Autoencoder, Codec 2 speech codec, modems, RADE and FreeDV waveforms). See also the Radio Autoencoder Credits.
+
+The FreeDV Project is managed by the Project Leadership Team (PLT): David Rowe VK5DGR, Mooneer Salem K6AQ, Walter Holmes K5WH, Mel Whitten K0PFX, Brian Morrison G8SEZ, and Peter Marks VK3TPM. Our financial sponsor is the Software Freedom Conservancy.
+
+Current development is being generously funded by an ADRC grant.
+
+As development continues, many people are helping whom we have not credited on this website, but we appreciate all of their work.
+
+History
+In 2012 the FreeDV GUI application was coded from scratch by David Witten (GUI, architecture) and David Rowe (Codec 2, modem implementation, integration).
+
+The FreeDV GUI design and user interface is based on FDMDV, which was developed by Francesco Lanza, HB9TLK. Francesco received advice on modem design from Peter Martinez G3PLX, who also advised David on the FDMDV modem used in FreeDV 1600.
+
+Mel Whitten, K0PFX has contributed greatly to the design, testing and promotion of several Digital Voice systems, including FDMDV. This practical experience has led to the current design – a fast sync, low latency system that gives a “SSB” type feel for operators. Mel and a team of alpha testers (Gerry, N4DVR; Jim, K3DCC; Rick, WA6NUT; Tony, K2MO) provided feedback on the usability and design of FreeDV.
+
+Bruce Perens has been a thought leader on open-source, patent-free voice codecs for Amateur Radio. He has inspired, promoted and encouraged the development of Codec 2 and FreeDV.
+
+Links
+Our current development program is being generously funded by an ADRC grant (Press Release).
+Our Financial Sponsor is the Software Freedom Conservancy.
+FreeDV Blog
+Project Code of Conduct
+FreeDV Reporter
+Google DigitalVoice group
+ezDV digital voice adaptor
+Codec 2 Voice Codec
+Radio Club Coronel Pringles in Argentina is very active with FreeDV and other digital modes. You can listen to their FreeDV transmissions on 7.045 MHZ LSB Monday, Wednesday, and Friday evenings at 1800 UTC on the LU4EEC KiwiSDR.
+FreeDV 1600 Specification
+SmallDV Embedded FreeDV สำหรับ Raspberry Pi จาก Matt KK5JY
+ตัวอย่างคำปราศรัยสาธิต WASPAA 2025 RADE
+ขับเคลื่อนด้วย WordPress
 ```
 วิทยุสือสารจังหวัดเลย ทะเบียน S/N:25BFA58S08277
 ข้ามไปที่เนื้อหา
