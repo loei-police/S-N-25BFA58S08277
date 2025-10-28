@@ -1,6 +1,8 @@
 [#6371](https://www.atprosound.com/my-account/#6371)[S/N:25BFA58S08277](https://commons.wikimedia.org/w/index.php?search=%E0%B8%AA%E0%B8%96%E0%B8%B2%E0%B8%99%E0%B8%B5+%E0%B8%A7%E0%B8%B4%E0%B8%97%E0%B8%A2%E0%B8%B8+%E0%B8%AD+%E0%B8%AA%E0%B8%A1%E0%B8%97+%E0%B9%80%E0%B8%A5%E0%B8%A2&title=Special%3AMediaSearch))
 [page สถาทีวิทยุ(อสมท)เลย](https://maps.app.goo.gl/cNwpkNS14G7GDULz9)
-| 
+| Points ของฉัน Points:[200](https://github.com/loei-police)
+กิจกรรม Points:200
+Points earned for account signup	49 นาที ago	+200
 }}
 
 
